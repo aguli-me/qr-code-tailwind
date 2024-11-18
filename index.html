@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | QR code component</title>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <style>
+      p {
+        font-size: 15px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body class="font-outfit bg-slate-300 h-screen flex gap-6">
+    <main
+      class="bg-white-500 p-4 w-80 max-h-max rounded-xxl mx-auto my-auto flex gap-6 flex-col"
+    >
+      <section>
+        <img
+          src="./images/image-qr-code.png"
+          alt="an image with qr code"
+          class="rounded-b10"
+        />
+      </section>
+      <section class="text-center px-4">
+        <p class="font-bold text-f22 mb-4">
+          Improve your front-end skills by building projects
+        </p>
+        <p class="text-slate-500">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
